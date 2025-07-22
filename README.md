@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/browser-extensions-manager-ui-main-JA8nH-Rda9
+- Live Site URL: https://manjirigole.github.io/browser-extensions-manager-ui-main/
 
 ## My process
 
