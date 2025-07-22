@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Browser extensions manager UI</title>
+  </head>
+  <body class="dark">
+    <div class="container">
+      <!--heading div-->
+      <div class="heading-div">
+        <div class="heading">
+          <img src="./assets/images/logo-white.svg" class="logo" alt="logo" />
+          <img
+            src="./assets/images/icon-sun.svg"
+            class="theme"
+            alt="light-theme-icon"
+          />
+        </div>
+      </div>
+      <!--extension type div-->
+      <div class="extension-type-div">
+        <div class="title">
+          <h1>Extensions List</h1>
+        </div>
+        <div class="type-btn-div">
+          <button class="all-btn focused">All</button>
+          <button class="active-btn">Active</button>
+          <button class="inactive-btn">Inactive</button>
+        </div>
+      </div>
+      <!--extension-grid-->
+      <div class="extension-grid"></div>
+      <template id="extension-template">
+        <div class="extension">
+          <div class="extension-info">
+            <img src="" alt="" class="extension-img" />
+            <div class="extension-name-desc-div">
+              <h3 class="extension-name"></h3>
+              <p class="extension-desc"></p>
+            </div>
+          </div>
+          <div class="toggle-div">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="isActiveToggle" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </template>
+    </div>
+
+    <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below 
+
+    DevLens Quickly inspect page layouts and visualize element boundaries.
+    Remove StyleSpy Instantly analyze and copy CSS from any webpage element.
+    Remove SpeedBoost Optimizes browser resource usage to accelerate page
+    loading. Remove JSONWizard Formats, validates, and prettifies JSON responses
+    in-browser. Remove TabMaster Pro Organizes browser tabs into groups and
+    sessions. Remove ViewportBuddy Simulates various screen resolutions directly
+    within the browser. Remove Markup Notes Enables annotation and notes
+    directly onto webpages for collaborative debugging. Remove GridGuides
+    Overlay customizable grids and alignment guides on any webpage. Remove
+    Palette Picker Instantly extracts color palettes from any webpage. Remove
+    LinkChecker Scans and highlights broken links on any page. Remove DOM
+    Snapshot Capture and export DOM structures quickly. Remove ConsolePlus
+    Enhanced developer console with advanced filtering and logging. Remove-->
+    <script src="./script.js"></script>
+  </body>
+</html>
